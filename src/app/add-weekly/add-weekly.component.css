@@ -1,0 +1,55 @@
+.container {
+    width: 100%; 
+    text-align: center;
+  }
+  
+  ul.flex {
+    display: flex; 
+    list-style-type: none;
+    padding: 0; 
+    justify-content: center;
+  }
+  
+  ul.flex li {
+    margin-right: 100px; 
+  }
+  
+  ul.flex li:last-child {
+    margin-right: 0; 
+  }
+  
+  ul.flex li a {
+    font-size: 30px; 
+    text-decoration: none; 
+    color: #333; 
+  }
+
+  .red-text{
+    color: red !important;
+  }
+
+  .addWeekly{
+    width: 600px;
+    max-height: 450px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    overflow: auto; 
+    box-shadow: 0 0 0 4px rgb(17, 17, 128);
+    border-radius: 20px;
+    border-image: linear-gradient(to right, blue, purple);
+  }
+
+  .addWeekly label,.addWeekly select{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding:auto;
+    font-size: 20px;
+  }
+
+  .addWeekly label{
+    padding-left: 30%;
+  }

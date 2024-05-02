@@ -1,0 +1,20 @@
+.calendar{
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.upcoming{
+    width: 400px;
+    min-height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto ; 
+    padding: auto;
+    box-shadow: 0 0 0 4px black;
+    border-image: linear-gradient(to right, blue, purple);
+}
+
+
+
